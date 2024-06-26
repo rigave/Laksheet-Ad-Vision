@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laksheet Ad Vision</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&family=Roboto+Condensed:wght@300;400;500&display=swap");
+    </style>
+    <script src="https://kit.fontawesome.com/39d89e87ea.js" crossorigin="anonymous"></script>
+  </head>
+  <body id="body">
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img class="logo" src="./images/logo.png" alt="" />
+          <ul id="side-menu">
+            <li class="active"><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Designer's/Developer's</p>
+          <h1>Welcome to <span>Laksheet Ad Vision</span><br />From Mumbai</h1>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------about----------------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo aliquid vel nam corrupti sequi odit iusto ut expedita eligendi, quos distinctio officia quia.
+              Sapiente quam illum deserunt eaque quia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo aliquid vel nam corrupti sequi odit iusto ut expedita
+              eligendi, quos distinctio officia quia. Sapiente quam illum deserunt eaque quia.
+            </p>
+            <div class="tab-titles">
+              <p class="active-link tab-links" onclick="openTab('skills')">Skills</p>
+              <p class="tab-links" onclick="openTab('experience')">Experience</p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Graphic Designer</span><br />Designing social media post, web/app interface, logo design and more, (Phothoshop, Illustrator, Coreldraw)</li>
+                <li><span>Video Editor</span><br />Create cenematic and high quality video editing, vfx, 3d ads and more, (Premier Pro, After Effects, Blender3d)</li>
+                <li>
+                  <span>Web Development/Digital Marketing</span><br />Create full MERN stack web development and design, market strategy, social media handle and more,(html, css,
+                  js, python, wordpress, figma, Xd)
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Mahakal Graphics</span><br />Working as a graphic designer and video editor from 2022 to 2023</li>
+                <li><span>Pylon Jewellery</span><br />Working as a photographer, graphic designer 2024</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>S.S.C.</span><br />Secondary High School</li>
+                <li><span>Degree</span><br />Degree College</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------services-------------------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">Our Services</h1>
+        <div class="services-list">
+          <div>
+            <h2>Graphic Design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ipsam placeat ipsa odio necessitatibus aliquid deleniti. Optio corporis voluptatibus, amet
+              laborum, reprehenderit quia assumenda in eveniet iusto nihil officiis quibusdam?
+            </p>
+            <a href="#">See More</a>
+          </div>
+          <div>
+            <h2>
+              Video <br />
+              Editing
+            </h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ipsam placeat ipsa odio necessitatibus aliquid deleniti. Optio corporis voluptatibus, amet
+              laborum, reprehenderit quia assumenda in eveniet iusto nihil officiis quibusdam?
+            </p>
+            <a href="#">See More</a>
+          </div>
+          <div>
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ipsam placeat ipsa odio necessitatibus aliquid deleniti. Optio corporis voluptatibus, amet
+              laborum, reprehenderit quia assumenda in eveniet iusto nihil officiis quibusdam?
+            </p>
+            <a href="#">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------contact---------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Us</h1>
+            <p>laksheetadvision@gmail.com</p>
+            <p>022-123456</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-square-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <a href="#" class="btn btn2">Download Flyer</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-shit">
+              <input type="text" name="name" placeholder="Enter Your Name" required />
+              <input type="text" name="email" placeholder="Enter Your Email" required />
+              <textarea name="message" id="message" rows="6" placeholder="Enter Your Message" required></textarea>
+              <button type="submit" class="btn btn-2">Sumit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Laksheet ad Vision since <span>2024</span></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
