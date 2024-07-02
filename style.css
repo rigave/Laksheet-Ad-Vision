@@ -112,6 +112,11 @@ nav ul li a:hover::after {
   color: rgb(38, 109, 240);
 }
 
+.about-col-2 p span {
+  color: rgb(38, 109, 240);
+  font-weight: 600;
+}
+
 .tab-titles {
   display: flex;
   margin: 20px 0 40px;
